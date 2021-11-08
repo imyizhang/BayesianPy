@@ -8,15 +8,15 @@ with open('README.md', 'r', encoding='utf-8') as f:
     README = f.read()
 
 setuptools.setup(
-    name='BayesianPy',
+    name='PyTorch-Bayes',
     version='0.0.1',
-    description='',
+    description='A simple PyTorch wrapper making Bayesian learning much easier',
     author='Yi Zhang',
     author_email='yizhang.dev@gmail.com',
     long_description=README,
     long_description_content_type='text/markdown',
-    url='https://github.com/imyizhang/BayesianPy',
-    download_url='https://github.com/imyizhang/BayesianPy',
+    url='https://github.com/imyizhang/PyTorch-Bayes',
+    download_url='https://github.com/imyizhang/PyTorch-Bayes',
     packages=setuptools.find_packages(),
     keywords=[
         'pytorch', 'bayesian'
