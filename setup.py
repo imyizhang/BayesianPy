@@ -9,7 +9,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setuptools.setup(
     name='PyTorch-Bayes',
-    version='0.0.1',
+    version='0.0.3',
     description='A simple PyTorch wrapper making Bayesian learning much easier',
     author='Yi Zhang',
     author_email='yizhang.dev@gmail.com',
@@ -30,6 +30,6 @@ setuptools.setup(
     license='MIT',
     python_requires='>=3.8',
     install_requires=[
-        'torch>=1.8.1'
+        'torch'
     ],
 )
